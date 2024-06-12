@@ -1,0 +1,20 @@
+2024-06-09 15:17:46.513 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-06-09 15:17:46.513 [info] Auto Sync is enabled.
+2024-06-09 15:17:46.513 [info] Auto Sync: Suspended until auth token is available.
+2024-06-09 15:17:49.121 [info] Auto Sync: Triggered by Interval
+2024-06-09 15:17:49.121 [info] Sync started.
+2024-06-09 15:17:50.148 [info] Settings: Last sync resource does not exist locally.
+2024-06-09 15:17:50.314 [info] GlobalState: Last sync resource does not exist locally.
+2024-06-09 15:17:50.387 [info] Settings: No changes found during synchronizing settings.
+2024-06-09 15:17:50.392 [info] Keybindings: Last sync resource does not exist locally.
+2024-06-09 15:17:50.612 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-09 15:17:50.613 [info] Snippets: Last sync resource does not exist locally.
+2024-06-09 15:17:50.833 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-09 15:17:50.834 [info] Tasks: Last sync resource does not exist locally.
+2024-06-09 15:17:51.040 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-09 15:17:51.041 [info] GlobalState: Last sync resource does not exist locally.
+2024-06-09 15:17:51.525 [info] Profiles: Last sync resource does not exist locally.
+2024-06-09 15:17:52.189 [info] GlobalState: Updated remote ui state. Updated: recently.opened.
+2024-06-09 15:17:52.214 [info] GlobalState: Updated last synchronized ui state
+2024-06-09 15:17:52.220 [info] Extensions: Last sync resource does not exist locally.
+2024-06-09 15:17:52.261 [info] Extensions: Last sync resource does not exist locally.

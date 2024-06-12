@@ -1,0 +1,48 @@
+2024-06-08 09:52:07.688 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-06-08 09:52:07.689 [info] Auto Sync is enabled.
+2024-06-08 09:52:07.689 [info] Auto Sync: Suspended until auth token is available.
+2024-06-08 09:52:09.240 [info] Auto Sync: Triggered by Interval
+2024-06-08 09:52:09.241 [info] Sync started.
+2024-06-08 09:52:10.126 [info] Settings: Last sync resource does not exist locally.
+2024-06-08 09:52:10.765 [info] Settings: Updated local settings
+2024-06-08 09:52:10.784 [info] Settings: Updated last synchronized settings
+2024-06-08 09:52:10.789 [info] Keybindings: Last sync resource does not exist locally.
+2024-06-08 09:52:11.045 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-08 09:52:11.047 [info] Snippets: Last sync resource does not exist locally.
+2024-06-08 09:52:11.229 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-08 09:52:11.230 [info] Tasks: Last sync resource does not exist locally.
+2024-06-08 09:52:11.654 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-08 09:52:11.679 [info] GlobalState: Last sync resource does not exist locally.
+2024-06-08 09:55:21.656 [info] Profiles: Last sync resource does not exist locally.
+2024-06-08 09:55:22.923 [info] GlobalState: Updated global state ["workbench.statusbar.hidden","languageStatus.dedicated","recently.opened"]
+2024-06-08 09:55:22.923 [info] GlobalState: Updated local ui state
+2024-06-08 09:55:22.967 [info] GlobalState: Updated last synchronized ui state
+2024-06-08 09:55:23.026 [info] Extensions: Last sync resource does not exist locally.
+2024-06-08 09:55:23.499 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-08 09:55:23.526 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-08 09:55:23.535 [info] Syncing profile. Python
+2024-06-08 09:55:23.707 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-08 09:55:23.802 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-08 09:55:24.022 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-08 09:55:24.079 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-08 09:55:24.143 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-08 09:55:24.289 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-08 09:55:24.297 [info] Sync done. Took 195056ms
+2024-06-08 10:00:48.845 [info] Auto Sync: Triggered by Interval
+2024-06-08 10:00:48.846 [info] Sync started.
+2024-06-08 10:00:49.481 [info] Settings: No changes found during synchronizing settings.
+2024-06-08 10:00:49.491 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-08 10:00:49.495 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-08 10:00:49.504 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-08 10:00:49.512 [info] GlobalState: Last sync data stored locally is not same as the last sync state.
+2024-06-08 10:00:50.186 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-08 10:00:50.285 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-08 10:00:50.306 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-08 10:00:50.310 [info] Syncing profile. Python
+2024-06-08 10:00:50.326 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-08 10:00:50.335 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-08 10:00:50.343 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-08 10:00:50.349 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-08 10:00:50.361 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-08 10:00:50.431 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-08 10:00:50.436 [info] Sync done. Took 1590ms

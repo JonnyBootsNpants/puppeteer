@@ -1,0 +1,55 @@
+2024-06-07 20:46:12.231 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-06-07 20:46:12.232 [info] Auto Sync is enabled.
+2024-06-07 20:46:12.232 [info] Auto Sync: Suspended until auth token is available.
+2024-06-07 20:46:12.244 [info] Deleting non existing profile from backup /User/sync/4fcd3b73/extensions
+2024-06-07 20:46:12.252 [info] Deleting non existing profile from backup /User/sync/4fcd3b73/globalState
+2024-06-07 20:46:12.260 [info] Deleting non existing profile from backup /User/sync/4fcd3b73/keybindings
+2024-06-07 20:46:12.268 [info] Deleting non existing profile from backup /User/sync/4fcd3b73/profiles
+2024-06-07 20:46:12.283 [info] Deleting non existing profile from backup /User/sync/4fcd3b73/settings
+2024-06-07 20:46:12.287 [info] Deleting non existing profile from backup /User/sync/4fcd3b73/snippets
+2024-06-07 20:46:12.288 [info] Deleting non existing profile from backup /User/sync/4fcd3b73/tasks
+2024-06-07 20:46:13.373 [info] Auto Sync: Triggered by Interval
+2024-06-07 20:46:13.373 [info] Sync started.
+2024-06-07 20:46:14.072 [info] Settings: Last sync resource does not exist locally.
+2024-06-07 20:46:14.316 [info] Settings: No changes found during synchronizing settings.
+2024-06-07 20:46:14.319 [info] Keybindings: Last sync resource does not exist locally.
+2024-06-07 20:46:14.533 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-07 20:46:14.534 [info] Snippets: Last sync resource does not exist locally.
+2024-06-07 20:46:14.738 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-07 20:46:14.740 [info] Tasks: Last sync resource does not exist locally.
+2024-06-07 20:46:14.918 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-07 20:46:14.921 [info] GlobalState: Last sync resource does not exist locally.
+2024-06-07 20:46:15.325 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-07 20:46:15.327 [info] Extensions: Last sync resource does not exist locally.
+2024-06-07 20:46:15.553 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-07 20:46:15.555 [info] Profiles: Last sync resource does not exist locally.
+2024-06-07 20:46:15.736 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-07 20:46:15.737 [info] Syncing profile. Python
+2024-06-07 20:46:15.746 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-07 20:46:15.850 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-07 20:46:15.869 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-07 20:46:15.887 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-07 20:46:15.927 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-07 20:46:15.946 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-07 20:46:15.946 [info] Sync done. Took 2573ms
+2024-06-07 22:00:58.666 [info] Auto Sync: Triggered by Interval
+2024-06-07 22:00:58.666 [info] Sync started.
+2024-06-07 22:00:59.321 [info] Settings: No changes found during synchronizing settings.
+2024-06-07 22:00:59.392 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-07 22:00:59.396 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-07 22:00:59.399 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-07 22:00:59.897 [info] GlobalState: Updated global state ["workbench.statusbar.hidden","languageStatus.dedicated","recently.opened"]
+2024-06-07 22:00:59.897 [info] GlobalState: Updated local ui state
+2024-06-07 22:00:59.909 [info] GlobalState: Updated last synchronized ui state
+2024-06-07 22:00:59.988 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-07 22:01:00.098 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-07 22:01:00.127 [info] Syncing profile. Python
+2024-06-07 22:01:00.180 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-07 22:01:00.191 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-07 22:01:00.240 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-07 22:01:00.247 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-07 22:01:00.769 [info] GlobalState (Python): Updated global state ["memento/gettingStartedService","remote.explorerType"]
+2024-06-07 22:01:00.769 [info] GlobalState (Python): Updated local ui state
+2024-06-07 22:01:00.774 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-07 22:01:00.871 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-07 22:01:00.873 [info] Sync done. Took 2207ms

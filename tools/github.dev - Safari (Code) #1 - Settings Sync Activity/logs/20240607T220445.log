@@ -1,0 +1,35 @@
+2024-06-07 22:04:46.659 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-06-07 22:04:46.660 [info] Auto Sync is enabled.
+2024-06-07 22:04:46.660 [info] Auto Sync: Suspended until auth token is available.
+2024-06-07 22:04:46.670 [info] Deleting non existing profile from backup /User/sync/4fcd3b73/extensions
+2024-06-07 22:04:46.699 [info] Deleting non existing profile from backup /User/sync/4fcd3b73/globalState
+2024-06-07 22:04:46.704 [info] Deleting non existing profile from backup /User/sync/4fcd3b73/keybindings
+2024-06-07 22:04:46.710 [info] Deleting non existing profile from backup /User/sync/4fcd3b73/profiles
+2024-06-07 22:04:46.720 [info] Deleting non existing profile from backup /User/sync/4fcd3b73/settings
+2024-06-07 22:04:46.724 [info] Deleting non existing profile from backup /User/sync/4fcd3b73/snippets
+2024-06-07 22:04:46.726 [info] Deleting non existing profile from backup /User/sync/4fcd3b73/tasks
+2024-06-07 22:04:48.136 [info] Auto Sync: Triggered by Interval
+2024-06-07 22:04:48.136 [info] Sync started.
+2024-06-07 22:04:49.147 [info] Settings: Last sync resource does not exist locally.
+2024-06-07 22:04:49.407 [info] Settings: No changes found during synchronizing settings.
+2024-06-07 22:04:49.414 [info] Keybindings: Last sync resource does not exist locally.
+2024-06-07 22:04:49.604 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-07 22:04:49.605 [info] Snippets: Last sync resource does not exist locally.
+2024-06-07 22:04:49.777 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-07 22:04:49.780 [info] Tasks: Last sync resource does not exist locally.
+2024-06-07 22:04:49.979 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-07 22:04:49.982 [info] GlobalState: Last sync resource does not exist locally.
+2024-06-07 22:04:50.982 [info] GlobalState: Updated remote ui state. Updated: recently.opened.
+2024-06-07 22:04:50.991 [info] GlobalState: Updated last synchronized ui state
+2024-06-07 22:04:51.001 [info] Extensions: Last sync resource does not exist locally.
+2024-06-07 22:04:51.231 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-07 22:04:51.233 [info] Profiles: Last sync resource does not exist locally.
+2024-06-07 22:04:51.418 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-07 22:04:51.421 [info] Syncing profile. Python
+2024-06-07 22:04:51.441 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-07 22:04:51.447 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-07 22:04:51.451 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-07 22:04:51.453 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-07 22:04:51.482 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-07 22:04:51.502 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-07 22:04:51.503 [info] Sync done. Took 3367ms

@@ -1,0 +1,318 @@
+2024-06-08 22:10:15.747 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-06-08 22:10:15.747 [info] Auto Sync is enabled.
+2024-06-08 22:10:15.747 [info] Auto Sync: Suspended until auth token is available.
+2024-06-08 22:10:15.760 [info] Deleting non existing profile from backup /User/sync/-28201e28/extensions
+2024-06-08 22:10:15.769 [info] Deleting non existing profile from backup /User/sync/-28201e28/globalState
+2024-06-08 22:10:15.775 [info] Deleting non existing profile from backup /User/sync/-28201e28/keybindings
+2024-06-08 22:10:15.778 [info] Deleting non existing profile from backup /User/sync/-28201e28/profiles
+2024-06-08 22:10:15.781 [info] Deleting non existing profile from backup /User/sync/-28201e28/settings
+2024-06-08 22:10:15.792 [info] Deleting non existing profile from backup /User/sync/-28201e28/snippets
+2024-06-08 22:10:15.793 [info] Deleting non existing profile from backup /User/sync/-28201e28/tasks
+2024-06-08 22:10:18.352 [info] Auto Sync: Triggered by Interval
+2024-06-08 22:10:18.353 [info] Sync started.
+2024-06-08 22:10:19.367 [info] Settings: Last sync resource does not exist locally.
+2024-06-08 22:10:19.607 [info] Settings: No changes found during synchronizing settings.
+2024-06-08 22:10:19.614 [info] Keybindings: Last sync resource does not exist locally.
+2024-06-08 22:10:19.897 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-08 22:10:19.898 [info] Snippets: Last sync resource does not exist locally.
+2024-06-08 22:10:20.079 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-08 22:10:20.080 [info] Tasks: Last sync resource does not exist locally.
+2024-06-08 22:10:20.367 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-08 22:10:20.368 [info] GlobalState: Last sync resource does not exist locally.
+2024-06-08 22:10:20.762 [info] Profiles: Last sync resource does not exist locally.
+2024-06-08 22:10:21.147 [info] GlobalState: Updated global state ["workbench.statusbar.hidden","languageStatus.dedicated"]
+2024-06-08 22:10:21.147 [info] GlobalState: Updated local ui state
+2024-06-08 22:10:21.663 [info] GlobalState: Updated remote ui state. Updated: recently.opened.
+2024-06-08 22:10:21.668 [info] GlobalState: Updated last synchronized ui state
+2024-06-08 22:10:21.675 [info] Extensions: Last sync resource does not exist locally.
+2024-06-08 22:10:21.929 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-08 22:10:21.932 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-08 22:10:21.933 [info] Syncing profile. Python
+2024-06-08 22:10:21.942 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-08 22:10:21.949 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-08 22:10:21.951 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-08 22:10:21.953 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-08 22:10:21.955 [info] GlobalState (Python): Last sync data stored locally is not same as the last sync state.
+2024-06-08 22:10:22.414 [info] GlobalState (Python): Updated global state ["workbench.statusbar.hidden"]
+2024-06-08 22:10:22.414 [info] GlobalState (Python): Updated local ui state
+2024-06-08 22:10:22.416 [info] GlobalState (Python): Updated last synchronized ui state
+2024-06-08 22:10:22.423 [info] Extensions (Python): Last sync data stored locally is not same as the last sync state.
+2024-06-08 22:10:22.655 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-08 22:10:22.656 [info] Sync done. Took 4303ms
+2024-06-08 22:15:22.651 [info] Auto Sync: Triggered by Interval
+2024-06-08 22:15:22.651 [info] Sync started.
+2024-06-08 22:15:23.270 [info] Settings: No changes found during synchronizing settings.
+2024-06-08 22:15:23.273 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-08 22:15:23.275 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-08 22:15:23.277 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-08 22:15:23.862 [info] GlobalState: Updated global state ["recently.opened"]
+2024-06-08 22:15:23.862 [info] GlobalState: Updated local ui state
+2024-06-08 22:15:23.866 [info] GlobalState: Updated last synchronized ui state
+2024-06-08 22:15:23.901 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-08 22:15:23.904 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-08 22:15:23.904 [info] Syncing profile. Python
+2024-06-08 22:15:23.909 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-08 22:15:23.910 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-08 22:15:23.912 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-08 22:15:23.914 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-08 22:15:23.917 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-08 22:15:23.927 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-08 22:15:23.928 [info] Sync done. Took 1277ms
+2024-06-08 22:17:48.296 [info] Auto Sync: Triggered by Activity
+2024-06-08 22:17:48.296 [info] Sync started.
+2024-06-08 22:17:48.899 [info] Settings: No changes found during synchronizing settings.
+2024-06-08 22:17:48.903 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-08 22:17:48.905 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-08 22:17:48.908 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-08 22:17:48.946 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-08 22:17:48.973 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-08 22:17:48.974 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-08 22:17:48.975 [info] Syncing profile. Python
+2024-06-08 22:17:48.978 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-08 22:17:48.980 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-08 22:17:48.982 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-08 22:17:48.984 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-08 22:17:48.986 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-08 22:17:48.997 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-08 22:17:48.997 [info] Sync done. Took 701ms
+2024-06-08 22:18:05.111 [info] Auto Sync: Triggered by Activity
+2024-06-08 22:18:05.111 [info] Sync started.
+2024-06-08 22:18:05.334 [info] Settings: No changes found during synchronizing settings.
+2024-06-08 22:18:05.341 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-08 22:18:05.343 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-08 22:18:05.346 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-08 22:18:05.383 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-08 22:18:05.412 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-08 22:18:05.413 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-08 22:18:05.413 [info] Syncing profile. Python
+2024-06-08 22:18:05.417 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-08 22:18:05.418 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-08 22:18:05.420 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-08 22:18:05.421 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-08 22:18:05.423 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-08 22:18:05.433 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-08 22:18:05.433 [info] Sync done. Took 322ms
+2024-06-08 22:18:54.982 [info] Auto Sync: Triggered by Activity
+2024-06-08 22:18:54.982 [info] Sync started.
+2024-06-08 22:18:55.579 [info] Settings: No changes found during synchronizing settings.
+2024-06-08 22:18:55.583 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-08 22:18:55.585 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-08 22:18:55.587 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-08 22:18:55.626 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-08 22:18:55.653 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-08 22:18:55.655 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-08 22:18:55.655 [info] Syncing profile. Python
+2024-06-08 22:18:55.659 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-08 22:18:55.661 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-08 22:18:55.662 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-08 22:18:55.663 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-08 22:18:55.665 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-08 22:18:55.675 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-08 22:18:55.675 [info] Sync done. Took 693ms
+2024-06-08 22:20:10.525 [info] Auto Sync: Triggered by Activity
+2024-06-08 22:20:10.525 [info] Sync started.
+2024-06-08 22:20:11.120 [info] Settings: No changes found during synchronizing settings.
+2024-06-08 22:20:11.124 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-08 22:20:11.126 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-08 22:20:11.129 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-08 22:20:11.166 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-08 22:20:11.193 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-08 22:20:11.195 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-08 22:20:11.195 [info] Syncing profile. Python
+2024-06-08 22:20:11.199 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-08 22:20:11.200 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-08 22:20:11.202 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-08 22:20:11.203 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-08 22:20:11.205 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-08 22:20:11.216 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-08 22:20:11.217 [info] Sync done. Took 692ms
+2024-06-08 22:21:00.692 [info] Auto Sync: Triggered by Activity
+2024-06-08 22:21:00.692 [info] Sync started.
+2024-06-08 22:21:01.308 [info] Settings: No changes found during synchronizing settings.
+2024-06-08 22:21:01.312 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-08 22:21:01.314 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-08 22:21:01.317 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-08 22:21:01.353 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-08 22:21:01.383 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-08 22:21:01.384 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-08 22:21:01.385 [info] Syncing profile. Python
+2024-06-08 22:21:01.388 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-08 22:21:01.389 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-08 22:21:01.391 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-08 22:21:01.392 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-08 22:21:01.394 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-08 22:21:01.403 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-08 22:21:01.404 [info] Sync done. Took 711ms
+2024-06-08 22:21:29.687 [info] Auto Sync: Triggered by Activity
+2024-06-08 22:21:29.687 [info] Sync started.
+2024-06-08 22:21:29.879 [info] Settings: No changes found during synchronizing settings.
+2024-06-08 22:21:29.881 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-08 22:21:29.882 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-08 22:21:29.883 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-08 22:21:29.910 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-08 22:21:29.935 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-08 22:21:29.938 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-08 22:21:29.939 [info] Syncing profile. Python
+2024-06-08 22:21:29.943 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-08 22:21:29.945 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-08 22:21:29.947 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-08 22:21:29.959 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-08 22:21:29.983 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-08 22:21:29.995 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-08 22:21:29.995 [info] Sync done. Took 308ms
+2024-06-08 22:22:31.511 [info] Auto Sync: Triggered by Activity
+2024-06-08 22:22:31.511 [info] Sync started.
+2024-06-08 22:22:32.217 [info] Settings: No changes found during synchronizing settings.
+2024-06-08 22:22:32.220 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-08 22:22:32.222 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-08 22:22:32.225 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-08 22:22:32.259 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-08 22:22:32.286 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-08 22:22:32.287 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-08 22:22:32.288 [info] Syncing profile. Python
+2024-06-08 22:22:32.291 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-08 22:22:32.292 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-08 22:22:32.293 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-08 22:22:32.294 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-08 22:22:32.296 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-08 22:22:32.305 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-08 22:22:32.306 [info] Sync done. Took 795ms
+2024-06-08 22:22:48.970 [info] Auto Sync: Triggered by Activity
+2024-06-08 22:22:48.971 [info] Sync started.
+2024-06-08 22:22:49.259 [info] Settings: No changes found during synchronizing settings.
+2024-06-08 22:22:49.264 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-08 22:22:49.267 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-08 22:22:49.270 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-08 22:22:49.306 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-08 22:22:49.334 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-08 22:22:49.336 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-08 22:22:49.336 [info] Syncing profile. Python
+2024-06-08 22:22:49.340 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-08 22:22:49.341 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-08 22:22:49.342 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-08 22:22:49.343 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-08 22:22:49.345 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-08 22:22:49.354 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-08 22:22:49.354 [info] Sync done. Took 383ms
+2024-06-08 22:23:08.992 [info] Auto Sync: Triggered by Activity
+2024-06-08 22:23:08.992 [info] Sync started.
+2024-06-08 22:23:09.233 [info] Settings: No changes found during synchronizing settings.
+2024-06-08 22:23:09.237 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-08 22:23:09.239 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-08 22:23:09.242 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-08 22:23:09.278 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-08 22:23:09.303 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-08 22:23:09.304 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-08 22:23:09.305 [info] Syncing profile. Python
+2024-06-08 22:23:09.308 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-08 22:23:09.309 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-08 22:23:09.310 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-08 22:23:09.312 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-08 22:23:09.314 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-08 22:23:09.323 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-08 22:23:09.324 [info] Sync done. Took 332ms
+2024-06-08 22:28:09.290 [info] Auto Sync: Triggered by Interval
+2024-06-08 22:28:09.291 [info] Sync started.
+2024-06-08 22:28:09.961 [info] Settings: No changes found during synchronizing settings.
+2024-06-08 22:28:09.966 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-08 22:28:09.968 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-08 22:28:09.971 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-08 22:28:10.011 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-08 22:28:10.039 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-08 22:28:10.041 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-08 22:28:10.041 [info] Syncing profile. Python
+2024-06-08 22:28:10.045 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-08 22:28:10.047 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-08 22:28:10.049 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-08 22:28:10.050 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-08 22:28:10.051 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-08 22:28:10.061 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-08 22:28:10.062 [info] Sync done. Took 771ms
+2024-06-08 22:33:10.056 [info] Auto Sync: Triggered by Interval
+2024-06-08 22:33:10.056 [info] Sync started.
+2024-06-08 22:33:10.689 [info] Settings: No changes found during synchronizing settings.
+2024-06-08 22:33:10.694 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-08 22:33:10.696 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-08 22:33:10.699 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-08 22:33:10.733 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-08 22:33:10.760 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-08 22:33:10.761 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-08 22:33:10.762 [info] Syncing profile. Python
+2024-06-08 22:33:10.765 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-08 22:33:10.767 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-08 22:33:10.768 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-08 22:33:10.769 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-08 22:33:10.770 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-08 22:33:10.779 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-08 22:33:10.780 [info] Sync done. Took 724ms
+2024-06-08 22:38:10.773 [info] Auto Sync: Triggered by Interval
+2024-06-08 22:38:10.773 [info] Sync started.
+2024-06-08 22:38:11.389 [info] Settings: No changes found during synchronizing settings.
+2024-06-08 22:38:11.394 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-08 22:38:11.396 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-08 22:38:11.399 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-08 22:38:11.437 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-08 22:38:11.464 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-08 22:38:11.465 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-08 22:38:11.466 [info] Syncing profile. Python
+2024-06-08 22:38:11.469 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-08 22:38:11.471 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-08 22:38:11.472 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-08 22:38:11.473 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-08 22:38:11.474 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-08 22:38:11.483 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-08 22:38:11.484 [info] Sync done. Took 711ms
+2024-06-08 22:43:11.494 [info] Auto Sync: Triggered by Interval
+2024-06-08 22:43:11.494 [info] Sync started.
+2024-06-08 22:43:12.093 [info] Settings: No changes found during synchronizing settings.
+2024-06-08 22:43:12.096 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-08 22:43:12.099 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-08 22:43:12.101 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-08 22:43:12.136 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-08 22:43:12.162 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-08 22:43:12.163 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-08 22:43:12.164 [info] Syncing profile. Python
+2024-06-08 22:43:12.167 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-08 22:43:12.168 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-08 22:43:12.169 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-08 22:43:12.170 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-08 22:43:12.172 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-08 22:43:14.533 [info] Extensions (Python): Installed extension. davidanson.vscode-markdownlint 0.55.0
+2024-06-08 22:43:14.545 [info] Extensions (Python): Updated last synchronized extensions.
+2024-06-08 22:43:14.554 [info] Sync done. Took 3060ms
+2024-06-08 22:48:14.552 [info] Auto Sync: Triggered by Interval
+2024-06-08 22:48:14.552 [info] Sync started.
+2024-06-08 22:48:16.244 [info] Settings: Updated local settings
+2024-06-08 22:48:16.248 [info] Settings: Updated last synchronized settings
+2024-06-08 22:48:16.252 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-08 22:48:16.254 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-08 22:48:16.255 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-08 22:48:16.284 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-08 22:48:16.387 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-08 22:48:16.391 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-08 22:48:16.392 [info] Syncing profile. Python
+2024-06-08 22:48:16.396 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-08 22:48:16.399 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-08 22:48:16.401 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-08 22:48:16.403 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-08 22:48:16.405 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-08 22:48:16.420 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-08 22:48:16.420 [info] Sync done. Took 1868ms
+2024-06-08 22:53:16.415 [info] Auto Sync: Triggered by Interval
+2024-06-08 22:53:16.415 [info] Sync started.
+2024-06-08 22:53:17.326 [info] Settings: Updated local settings
+2024-06-08 22:53:17.330 [info] Settings: Updated last synchronized settings
+2024-06-08 22:53:17.334 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-08 22:53:17.335 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-08 22:53:17.337 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-08 22:53:17.361 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-08 22:53:17.475 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-08 22:53:17.479 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-08 22:53:17.481 [info] Syncing profile. Python
+2024-06-08 22:53:17.484 [info] Settings (Python): No changes found during synchronizing settings.
+2024-06-08 22:53:17.486 [info] Keybindings (Python): No changes found during synchronizing keybindings.
+2024-06-08 22:53:17.487 [info] Snippets (Python): No changes found during synchronizing snippets.
+2024-06-08 22:53:17.488 [info] Tasks (Python): No changes found during synchronizing tasks.
+2024-06-08 22:53:17.499 [info] GlobalState (Python): No changes found during synchronizing ui state.
+2024-06-08 22:53:17.511 [info] Extensions (Python): No changes found during synchronizing extensions.
+2024-06-08 22:53:17.511 [info] Sync done. Took 1096ms
