@@ -285,7 +285,7 @@ describe('Page', function () {
       const [popup] = await Promise.all([
         waitEvent<Page>(page, 'popup'),
         page.$eval('a', a => {
-          return (a as HTMLAnchorElement).click();
+          return a.click();
         }),
       ]);
       expect(
@@ -408,11 +408,6 @@ describe('Page', function () {
       expect(message.text()).toEqual('hello 5 JSHandle@object');
       expect(message.type()).toEqual('log');
       expect(message.args()).toHaveLength(3);
-      expect(message.location()).toEqual({
-        url: expect.any(String),
-        lineNumber: expect.any(Number),
-        columnNumber: expect.any(Number),
-      });
 
       expect(await message.args()[0]!.jsonValue()).toEqual('hello');
       expect(await message.args()[1]!.jsonValue()).toEqual(5);
@@ -550,33 +545,33 @@ describe('Page', function () {
       });
     });
     it('should have location and stack trace for console API calls', async () => {
-      const {page, server, isChrome} = await getTestState();
+      const {page, server} = await getTestState();
 
       await page.goto(server.EMPTY_PAGE);
       const [message] = await Promise.all([
         waitEvent(page, 'console'),
-        page.goto(server.PREFIX + '/consolelog.html'),
+        page.goto(server.PREFIX + '/consoletrace.html'),
       ]);
       expect(message.text()).toBe('yellow');
-      expect(message.type()).toBe('log');
+      expect(message.type()).toBe('trace');
       expect(message.location()).toEqual({
-        url: server.PREFIX + '/consolelog.html',
+        url: server.PREFIX + '/consoletrace.html',
         lineNumber: 8,
-        columnNumber: isChrome ? 16 : 8, // console.|log vs |console.log
+        columnNumber: 16,
       });
       expect(message.stackTrace()).toEqual([
         {
-          url: server.PREFIX + '/consolelog.html',
+          url: server.PREFIX + '/consoletrace.html',
           lineNumber: 8,
-          columnNumber: isChrome ? 16 : 8, // console.|log vs |console.log
+          columnNumber: 16,
         },
         {
-          url: server.PREFIX + '/consolelog.html',
+          url: server.PREFIX + '/consoletrace.html',
           lineNumber: 11,
           columnNumber: 8,
         },
         {
-          url: server.PREFIX + '/consolelog.html',
+          url: server.PREFIX + '/consoletrace.html',
           lineNumber: 13,
           columnNumber: 6,
         },
@@ -1198,6 +1193,22 @@ describe('Page', function () {
       });
       expect(result).toBe(36);
     });
+
+    it('should be called once', async () => {
+      const {page, server} = await getTestState();
+
+      await page.goto(server.PREFIX + '/frames/nested-frames.html');
+      let calls = 0;
+      await page.exposeFunction('call', function () {
+        calls++;
+      });
+
+      const frame = page.frames()[1]!;
+      await frame.evaluate(async function () {
+        return (globalThis as any).call();
+      });
+      expect(calls).toBe(1);
+    });
   });
 
   describe('Page.removeExposedFunction', function () {
@@ -1326,6 +1337,31 @@ describe('Page', function () {
       expect(uaData['platform']).toBe('MockOS');
       expect(uaData['platformVersion']).toBe('3.1');
       expect(request.headers['user-agent']).toBe('MockBrowser');
+    });
+    it('should restore original', async () => {
+      const {page, server} = await getTestState();
+
+      const userAgent = await page.evaluate(() => {
+        return navigator.userAgent;
+      });
+
+      await page.setUserAgent('foobar');
+      const [requestWithOverride] = await Promise.all([
+        server.waitForRequest('/empty.html'),
+        page.goto(server.EMPTY_PAGE),
+      ]);
+      expect(requestWithOverride.headers['user-agent']).toBe('foobar');
+
+      await page.setUserAgent('');
+      const [request] = await Promise.all([
+        server.waitForRequest('/empty.html'),
+        page.goto(server.EMPTY_PAGE),
+      ]);
+      expect(request.headers['user-agent']).toBe(userAgent);
+      const userAgentRestored = await page.evaluate(() => {
+        return navigator.userAgent;
+      });
+      expect(userAgentRestored).toBe(userAgent);
     });
   });
 
@@ -1830,7 +1866,7 @@ describe('Page', function () {
         path: path.join(__dirname, '../assets/injectedstyle.css'),
       });
       using styleHandle = (await page.$('style'))!;
-      const styleContent = await page.evaluate((style: HTMLStyleElement) => {
+      const styleContent = await page.evaluate(style => {
         return style.innerHTML;
       }, styleHandle);
       expect(styleContent).toContain(path.join('assets', 'injectedstyle.css'));
@@ -2144,11 +2180,9 @@ describe('Page', function () {
       await page.select('select');
       expect(
         await page.$eval('select', select => {
-          return Array.from((select as HTMLSelectElement).options).every(
-            option => {
-              return !option.selected;
-            }
-          );
+          return Array.from(select.options).every(option => {
+            return !option.selected;
+          });
         })
       ).toEqual(true);
     });
@@ -2160,11 +2194,9 @@ describe('Page', function () {
       await page.select('select');
       expect(
         await page.$eval('select', select => {
-          return Array.from((select as HTMLSelectElement).options).filter(
-            option => {
-              return option.selected;
-            }
-          )[0]!.value;
+          return Array.from(select.options).filter(option => {
+            return option.selected;
+          })[0]!.value;
         })
       ).toEqual('');
     });

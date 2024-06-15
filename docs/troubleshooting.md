@@ -51,7 +51,7 @@ You will need to reinstall `puppeteer` in order for the configuration to take
 effect. See [Configuring Puppeteer](./guides/configuration) for more
 information.
 
-## Chrome headless doesn't launch on Windows
+## Chrome doesn't launch on Windows
 
 Some [chrome policies](https://support.google.com/chrome/a/answer/7532015) might
 enforce running Chrome/Chromium with certain extensions.
@@ -69,6 +69,34 @@ const browser = await puppeteer.launch({
 
 > Context:
 > [issue 3681](https://github.com/puppeteer/puppeteer/issues/3681#issuecomment-447865342).
+
+## Chrome reports sandbox errors on Windows
+
+Chrome uses sandboxes on Windows which require additional permissions on
+the downloaded Chrome files. Currently, Puppeteer is not able to set
+those permissions for you.
+
+If you encounter this issue, you will see errors like this in the browser stdout:
+
+```
+[24452:59820:0508/113713.058:ERROR:sandbox_win.cc(913)] Sandbox cannot access executable. Check filesystem permissions are valid. See https://bit.ly/31yqMJR.: Access is denied. (0x5)
+```
+
+To workaround the issue, use the icacls utility to set permissions manually:
+
+```powershell
+icacls %USERPROFILE%/.cache/puppeteer/chrome /grant *S-1-15-2-1:(OI)(CI)(RX)
+```
+
+:::note
+
+In high security environments a more restrictive SID should be used such
+as one from the
+[installer](https://source.chromium.org/chromium/chromium/src/+/main:chrome/installer/setup/install_worker.cc;l=74).
+
+:::
+
+See https://bit.ly/31yqMJR for more details.
 
 ## Chrome doesn't launch on Linux
 
@@ -483,7 +511,7 @@ launch headless Chrome in your docker env:
 before_script:
   - apt-get update
   - apt-get install -yq gconf-service libasound2 libatk1.0-0 libc6 libcairo2
-    libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4
+    libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgbm1 libgcc1 libgconf-2-4
     libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0
     libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1
     libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1
